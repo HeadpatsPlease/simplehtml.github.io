@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Basics Of HTML</title>
+        <link rel="icon" type="image/ico" href="images/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="BasicsofCSS.css">
+    </head>
+    <body>
+
+        <h1>All HTML codes start with !DOCTYPE html </h1>
+        <img src="images/Doctype!.png" alt="doctype">
+        <h2>The two parts of HTML are Head and Body</h2>
+        <br>
+        <h1>Contents of Body</h1>
+        <h3>The body consists of the content of your website</h3>
+        <br>
+        <h1>Headings are like for titles</h1>
+        <h1>H1 Heading</h1>
+        <h2>H2 Heading</h2>
+        <h3>H3 Heading</h3>
+        <h4>H4 Heading</h4>
+        <H5>H5 Heading</H5>
+        <h6> sheesh </h6>
+        <img src="images/headings.png" alt="picture of headings">
+
+        <br> 
+
+        <p>br and comments in coding looks like this aswell as the comment in green text</p>
+        <img src="images/br.png">
+        <!-- <br> is a selfclosing like break -->
+
+        <br>
+
+        <p>This is a paragraph</p>
+        <p>There are two types of paragraph (p)(/p) and (pre)(/pre)</p>
+        <p>
+            This 
+            line
+            is 
+            supposed
+            to
+            be
+            cut
+            (p)
+        </p>
+        <br>
+        <pre>
+            Now
+            this 
+            line
+            is
+            cut
+            (pre)
+        </pre>
+        <img src="images/paragrap.png">
+
+
+
+        <h3>HyperLinks</h3>
+        <p>Hyperlinks are like <a href=https://en.wikipedia.org/wiki/Hyperlink#:~:text=In%20computing%2C%20a%20hyperlink%2C%20or,Hypertext%20is%20text%20with%20hyperlinks. target="_blank" title="Wikipedia:Hyperlink">this</a></p>
+        <p>It uses (a)(/a). Inside (a) it needs a hyper text reference (href)</p>
+        <p>Like (a href="https://www.google.com") <a href="https://www.google.com">Click Here</a> (/a)</p>
+        <p>You may add target="_blank inside (a) to open the hyperlink in a newtab and title="text" to show a tooltip on hovering on said tip</p>
+        <p>In Example it should look like this 
+            <a href="https://www.google.com" target="_blank" title="Goes to google">Click here!</a>
+        </p>
+        <img src="images/Screenshot_23.png">
+        <p>you can also redirect to another 
+            <a href="2.html" > HTML File</a> 
+        </p>
+
+
+
+        <h1>How to import images to your website</h1>
+        <p>This part is all about (img) where you can use images and gifs to be used in your website</p>
+        <p>src is short for source, this is where you put the source of the picture. Either a file director or a url</p>
+    
+        <img src="images/website.png" alt="pictue of a website" title="source is in file directory">
+        <br>
+    
+        <img src="images/website2.png" alt="picture of a image" title="source is in google images">
+
+        <p>img also has attributes such as alt, which shows a text when the src is unavailable, title, where it shows a tooltip when hovered, and img can also be used as a hyperlink.</p>
+        <p>img can also be edited using width and height to customize size of an img</p>
+        <img src="images/attribforimg.png" alt="attributes for img">
+        <h4>Here's an GIF of a cat breakdancing</h4>
+        <img src="images/cat-breakdancing.gif" alt="cat-breakdancing" title="cat-breakdancing">
+
+
+        <h1>Audio Files</h1>
+        <p>This part teaches you how to put audio in your website</p>
+        <p>Here's an example of a mp3 audio.. HEADPHONE WARNING</p>
+
+        <audio controls>
+            <source src="audio/Metal pipe falling sound effect but its more violent.mp3" type="audio/mp3">
+            <source src="audio/Metal pipe falling sound effect but its more violent.wav" type="audio/wav">
+        </audio>
+
+        <p>Unlike img, audio cannot use irl to be used as an src only fire directory. </p>
+        <p>Putting controls in audio makes it show a simple control. you may add attributes like autoplay, loop and muted which are self explanatory </p>
+        <img src="images/audio.png" alt="example of audio" title="audio in coding">
+
+
+        <h1>Video Files</h1>
+        <p>Now we continue by adding video files in your website</p>
+        <p>video is really similar to audio in terms to coding</p>
+        <p>here's an example.</p>
+
+        <video controls width="1000" height="600" autoplay muted>
+            <source src="video/DARK SOULS™ REMASTERED_2023.06.24-20.16.mp4" type="video/mp4">
+            <source src="video/DARK SOULS™ REMASTERED_2023.06.24-20.16.ogg" type="video/ogg">
+
+        </video>
+
+        <p>video can also be customized using width and height. And attributes like autoplay, loop, and muted can also be applied here</p>
+        <img src="images/video.png" alt="video in code" title="code:video">
+
+
+        <h1>Both audio and video can use a back up incase .mp3 and .mp4 are not working or not supported by a certain browser. <br> This can be fixed
+            by using a different video file like .wav or .ogg and telling the program what type it is.
+        </h1>
+        <img src="images/audiotype.png" alt="back up for audio" title="backup for audio">
+        <img src="images/videotype.png" alt="back up for video" title="backup for video">
+
+    
+
+        <h1>Favicons</h1>
+        <p>Favicons are icons that appears next to your website's title thus normally
+            it is put in the Head section.
+        </p>
+        <p>Note that the minimum size for a favcon is 96 by 96  pixels and their extensions could be 
+            <br> .ico, .png, .gif, .jpeg, .svg.
+        </p>
+        <img src="images/favicon.png" alt="picture of an favicon" title="Picture of a favicon">
+
+        <h1>Highlighted or custom texts</h1>
+        <p>There are many ways to highlight and customize a word or a paragraph</p>
+        <p>First surround a word with < > then type the following </p>
+        <h1>        
+        <b>Bold (b)</b> 
+        <br>
+        <i>Italic (i)</i>
+        <br>
+        <u>Underlined (u)</u> 
+        <br>
+        <del>Deleted (del)</del>
+        <br>
+        <big>Big (big)</big>
+        <br>
+        <small>Small (small)</small>
+        <br>
+        <sub>Subscript (sub)</sub>
+        <br>
+        <sup>superscript (sup)</sup>
+        <br>
+        <tt>Monospaced (tt)</tt>
+        <br>
+        <mark style="background-color: yellow;">Marked (mark style="background-color: yellow")</mark>
+        <br>
+        <img src="images/textcustomize.png" alt="Types of highlights" title="Types of texts in coding">
+        </h1>
+
+        <h1>Div and Span</h1>
+        <p>Div and span are commonly known as grouping tags for styling using CSS.</p>
+        <p>Div takes a whole block while span is inline which makes it simillar to (mark) in highlight text</p>
+        
+        <h1><span style="background-color: pink;"> This is a span </span></h1>
+        
+        <div style="background-color: aqua;">
+            <h1>This is a div</h1>
+        </div>
+
+        <p>As you can see, span only takes the text while div extends and takes a whole block.</p>
+        <img src="images/spananddiv.png" alt="span and div" title="span and div">
+
+
+        <h1> Lists </h1>
+        <p>There are three types of list in html. Ordered, Unordered, and Description.</p>
+        <p>Ordered lists are resembled by numbers and Unordered list are resembled by dots</p>
+        <p>(ul, ol) are just containers, to put something inside these lists you need (li)</p>
+        
+
+        <h1>This is a Unordered list (ul)</h1>
+        <ul>
+            <li>This</li>
+            <li>Is</li>
+            <li>A</li>
+            <li>Unordered</li>
+            <li>List</li>
+        </ul>
+        <img src="images/ul.png" alt="Unordered List" title="Unordered List">
+
+        <h1>This is a Ordered List</h1>
+        <ol>
+            <li>This</li>
+            <li>Is</li>
+            <li>A</li>
+            <li>Ordered</li>
+            <li>List</li>
+        </ol>
+        <img src="images/ol.png" alt="ordered List" title="ordered List">
+
+        <h1>Descriptive lists (dl) are lists that contains a description</h1>
+        <p>Descriptive lists contains descriptive terms (dt) which also contains descriptive definition (dd)</p>
+
+        <dl>
+            <dt>This is a Descriptive term</dt>
+            <dd>This is a descriptive definition, which is a little out there and has a indentation unlike the Descriptive term</dd>
+        </dl>
+        <img src="images/dt.png" alt="Descriptive List" title="Descriptive List">
+
+        <h1>Nested lists</h1>
+        <p>Only Unordered and Ordered lists can be nested</p>
+
+        <h1>This is a Nested List</h1>
+        <p> It can be both unlisted or ordered lists</p>
+
+        <ul>
+            <li>This</li>
+            <li>Is</li>
+            <li>A</li>
+            <li>Unordered</li>
+            <li>List</li>
+            <ol>
+                <li>This</li>
+                <li>Is</li>
+                <li>A</li>
+                <li>Ordered</li>
+                <li>List</li>
+            </ol>
+        </ul>
+        <img src="images/nested list.png" alt="Nested List" title="Nested List">
+
+        <h1> Tables</h1>
+        <p> Tables are used to create a excel like table like this</p>
+        <img src="images/tableex.png" alt="example of a table" title="excel table">
+        <br>
+        <p>To create a table like that example we first need to create a Table then a Table Header (th)</p>
+
+        <img src="images/th.png" alt="table header" title="table header">
+        <br>
+        <p> Then create another Table then a Table Data (td). th and td must be in equal numbers for equality purposes</p>
+        <img src="images/tdd.png" alt="table data" title="table data">
+
+        <p>Combined Output (put a align to keep it center and easy to see)</p>
+        <table align="center">
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+        </table>
+        <table align="center">
+            <td>Open</td>
+            <td>Closed</td>
+            <td>12AM - 4:30PM</td>
+            <td>Closed</td>
+            <td>Open</td>
+            <td>4AM - 3PM</td>
+            <td>Open</td>
+        </table>
+        <img src="images/table.png" alt="table" title="table">
+
+        <h1>Buttons</h1>
+        <p> Buttons (button) are exactly what they sound like, it's a button that can be clicked. This is what they look like</p>
+        <button> This is a button</button>
+        <p>a button size can be change by changing the font size</p>
+        <button style="font-size: 30px;"> This is a bigger button</button>
+        <p> Depending on what you want the button to do, you can use the previous topics to change it's purpose and design</p>
+        <a href="https://www.Youtube.com" target="_blank">
+            <button> Click me to go to youtube</button>
+        </a>
+
+        <br>
+
+        <a href="2.html">
+            <button> Click me for the GYATT</button>
+        </a>
+
+        <br>
+
+        <button> <img src="images/favicon.ico"></button>
+
+        <p> There are many things you can do with the button command, try it our for yourself! :P</p>
+
+        <img src="images/button.png">
+
+     
+        <h1> Headers, Main, Footers</h1>
+        <p> Headers, main, and footers are ways to organize your code</p>
+        <p> In simplicity it's basically the introduction, body, and conclusion when writing a paper</p>
+        <p> Header is what is presented at your top page</p>
+        <p> Main is the main content of your websites </p>
+        <p> Footer is the bottom of your page </p>
+        <p> These three make it easier to manage and customize when you come to learn about CSS and JavaScript</p>
+
+        <header>
+
+        </header>
+
+        <main>
+
+        </main>
+
+        <footer>
+
+        </footer>
+
+        <img src="images/foot.png" title="foot">
+
+
+        <h1> That is pretty much the basics of HTML, I did not write all and everything about HTML because 1. i'm lazy and 2. i'ts incredibly long</h1>
+        <p> My sources are two places <a href="https://www.youtube.com/watch?v=HGTJBPNC-Gw&t=2577s" target="_blank"> BroCode</a> and <a href="https://scrimba.com/learn/htmlandcss"> Scrimba</a></p>
+        <p> Both are Great places to learn other coding languages and i highly reccomend you check those two out</p>
+        <p> Thanks very much and i hope this website i made for fun helped</p>
+        <p> And no i am not going to make a page for CSS go learn that yourself</p>
+        
+
+
+
+        
+    
+       
+
+
+
+
+        
+
+
+    
+
+
+
+        
+    
+
+
+    </body>
+</html>
